@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./Style página de contato.css">
+</head>
+<body class="conteudo">
+    <!--Inicio do header-->
+    <header>
+        <section class="linha">
+            <img src="./Imagens/Logo.jpeg" alt="Logo da empresa XPTO" width="150px" />
+            <!--Inicio do menu do site-->
+            <nav>
+                <ul>
+                    <li>
+                        <a class="botao" href="Landing Page.html">Início</a>
+                    </li>
+                    <li>
+                        <a class="botao-ativo" href="Página de contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--Fim do menu do site-->
+        </section>
+    </header>
+    <!--Fim do header-->
+    <!--Inicio do main-->
+    <main>
+        <!--Início da section do conteúdo do site-->
+        <section class="sobre">
+            <!--Conteúdo de texto sobre o site-->
+            <article>
+                <div class="div1">
+                    <h1>Contato</h1>
+                    <h2>Landing Page</h2>
+                    <p>Preencha os dados e envie sua mensagem de contato.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and.</p>
+                </div>
+                <div class="div2">
+                    <fieldset>
+                        <form action="contato.php" method="POST">
+                            <label>Nome:</label><br>
+                            <input type="text" required="required" class="entrada" maxLength="100" size="50"><br><br>
+                            <label>Data de Nascimento:</label><br>
+                            <input type="date" required="required" class="entrada"><br><br>
+                            <!--Atividade 2: completar as opções de sexo da pessoa de modo que apenas uma opção possa ser selecionada-->
+                            <label>Sexo:</label><br>
+                            <input type="radio" name="rdoSexo" value="M" required="required">
+                            <label>Masculino</label>
+                            <input type="radio" name="rdoSexo" value="F" required="required">
+                            <label>Feminino</label><br><br>
+                            <!--Atividade 3: incluir um campo para o endereço-->
+                            <label>Endereço:</label><br>
+                            <input type="text" required="required" class="entrada" maxLength="100" size="50"><br><br>
+                            <label>Estado:</label><br>
+                            <select class="entrada" required="required">
+                                <option value="">-Selecione-</option>
+                                <option value="1">SC</option>
+                                <option value="2">MG</option>
+                            </select><br><br>
+                            <!--Atividade 4: incluir um campo para a cidade similar ao do estado-->
+                            <label>Cidade:</label><br>
+                            <select class="entrada" required="required">
+                                <option value="">-Selecione-</option>
+                                <option value="1">Blumenau</option>
+                                <option value="2">Florianópolis</option>
+                            </select><br><br>
+                            <!--Atividade 5: incluir um campo para o celular contendo placeholder-->
+                            <label>Celular:</label><br>
+                            <input type="text" required="required" class="entrada" maxlength="15" size="19" placeholder="(xx) xxxxx-xxxx"><br><br>
+                            <label>E-mail:</label><br>
+                            <input type="email" required="required" size="50" class="entrada"><br><br>
+                            <!--Atividade 6: completar as opções de interesse-->
+                            <label>Áreas de Interesse:</label><br>
+                            <input type="checkbox" value="HTML" name="chkAreasInteresse">
+                            <label>HTML</label>
+                            <input type="checkbox" value="CSS" name="chkAreasInteresse">
+                            <label>CSS</label>
+                            <input type="checkbox" value="JavaScript" name="chkAreasInteresse">
+                            <label>JavaScript</label><br><br>
+                            <!--Atividade 7: incluir um campo para a mensagem-->
+                            <label>Mensagem:</label><br>
+                            <textarea class="entrada" cols="50" rows="5" required="required"></textarea><br>
+                            <!--Atividade 8: incluir um botão para enviar o formulário-->
+                            <input class="botao-destaque" type="submit" value="Enviar">
+                        </form>
+                    </fieldset>
+                </div>
+            </article>
+            <!--Fim do conteúdo de texto sobre o site-->
+        </section>
+        <!--Fim da section do conteúdo do site-->
+    </main>
+    <!--Fim do main-->
+    <!--Atividade 9: criar a seção 'footer' idêntica à da página inicial-->
+    <!--Início do footer-->
+    <footer>
+        <!--Início das redes sociais-->
+        <a href="#">
+        <img src="./Imagens/Instagram.png" alt="Instagram" width="30px" />
+        </a>
+        <a href="#">
+        <img src="./Imagens/Facebook.png" alt="Facebook" width="30px" />
+        </a>
+        <a href="#">
+        <img src="./Imagens/Twitter.png" alt="Twitter" width="30px" />
+        </a>
+        <!--Fim das redes sociais-->
+    </footer>
+    <!--Fim do footer-->
+</body>
+</html
